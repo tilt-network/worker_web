@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    padding: 1rem;
+    background-color: #08001f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h5 {
+    margin-top: 0;
+}
+
+#result_container {
+    margin-bottom: 1rem;
+    height: 100px;
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+#result_container > p {
+    font-size: 8px;
+}
+
+#log,
+#task {
+    border: none;
+    height: 100px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 8px;
+}
+.logs_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.logs_container > div {
+    flex: 1;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}

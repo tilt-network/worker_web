@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Tilt SDK</title>
+        <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Tilt SDK <span id="status">Disconnected</span></h1>
+        <p style="font-size: 8px;" id="device_id"></p>
+        <!-- <p>Status: <span id="status">Disconnected</span></p> -->
+        <p style="font-size: 8px;">Last message sent: <span id="sent">None</span></p>
+        <div id="result_container">
+            <h5>Processed data</h2>
+            <p id="result"></p>
+        </div>
+        <div class="logs_container">
+            <div>
+                <h5>Incoming Message Log</h2>
+                <div id="log"></div>
+            </div>
+            <div>
+                <h5>Incoming Task</h2>
+                <div id="task"></div>
+            </div>
+        </div>
+
+        <script src="program.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
